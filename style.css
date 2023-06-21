@@ -1,0 +1,14 @@
+*{
+    background-color: lightgray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 40px;
+  }
+
+#name{
+    text-align: center;
+}
