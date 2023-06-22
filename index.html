@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Personal Portfolio</title>
+    <script src="functions.js"></script>
+
 </head>
 <body>
     <nav>
@@ -17,9 +19,12 @@
         <section id="name">
         <h1>David Zwers<br>Web Developer</h1>
         </section>
+        
+        <button onclick="fontChange('test')">Change Font</button>
+        
         <section id="about">
             <h2>About</h2>
-            <p>Welcome to my vibrant corner of the web! I'm David Zwers, a web developer hailing from the sunny shores of Clearwater, Florida. </p>
+            <p id="test">Welcome to my vibrant corner of the web! I'm David Zwers, a web developer hailing from the sunny shores of Clearwater, Florida. </p>
                 <p>With an unwavering passion for crafting captivating online experiences, I infuse my work with a unique blend of creativity and attention to detail. </p>
                 <p>I specialize in small companies bringing their products to the community. Together, let's transform your digital dreams into visually stunning and user-friendly realities!</p>
         </section>
@@ -52,8 +57,6 @@
         </section>
     </main>
 
-    <!--<button onclick="typedHeading()">Load</button> -->
-
 
 
 
@@ -72,7 +75,6 @@
     }    
     typedHeading()
     </script>
-    <script src="functions.js"></script>
 
 </body>
 </html>
