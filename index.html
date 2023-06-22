@@ -35,13 +35,44 @@
             </ul>
         </section>
 
+        <section id="pastProjects">
+            <h2>Past Projects</h2>
+            <ul>
+                <li><a href="c:\Web Dev Projects\MusicalNotesSite\index.html" target="_blank">Musical Notes Site</a></li>
+                <li><a href="c:\Web Dev Projects\CodeAcademy Projects\CheatsheetProject\index.html" target="_blank">Cheatsheet</a></li>
+            </ul>
+        </section>
+
         <section id="contact">
             <h2>Contact</h2>
             <ul>
-                <li>Phone:</li>
-                <li>Email</li>
+                <li>Phone: (727) 560-2402</li>
+                <li>Email: davidzwers@gmail.com</li>
             </ul>
         </section>
     </main>
+
+    <!--<button onclick="typedHeading()">Load</button> -->
+
+
+
+
+    <script>
+    //Function to make the heading looked like its being typed in
+
+    function typedHeading() {
+        let originalHeading = document.getElementById('name').innerHTML;
+        let newHeading = '';
+        for (let i = 0; i < originalHeading.length; i++) {
+            setTimeout(() => {
+                newHeading += originalHeading[i];
+                document.getElementById('name').innerHTML = newHeading;
+            }, 110 * i);
+        }
+    }    
+    typedHeading()
+    </script>
+    <script src="functions.js"></script>
+
 </body>
 </html>
