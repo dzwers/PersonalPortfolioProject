@@ -10,6 +10,7 @@
 
 </head>
 <body>
+
     <nav>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
@@ -19,9 +20,24 @@
         <section id="name">
         <h1>David Zwers<br>Web Developer</h1>
         </section>
-        
-        <button onclick="fontChange('test')">Change Font</button>
-        
+
+        <section id="buttons">
+        <button onclick="changeFont('Courier New')">Default</button>
+        <button onclick="changeFont('Arial')">Arial</button>
+        <button onclick="changeFont('Monospace')">Monospace</button>
+        <button onclick="changeFont('Arial Black')">Arial Black</button>
+        </section>
+
+        <section id="getStarted">
+            <label for="nameForm">Let's get started with your name:</label>
+            <input type='text' id="nameForm" oninput="message()">
+
+            <p id="welcomeMessage">Welcome!</p>
+        </section>
+
+
+
+
         <section id="about">
             <h2>About</h2>
             <p id="test">Welcome to my vibrant corner of the web! I'm David Zwers, a web developer hailing from the sunny shores of Clearwater, Florida. </p>
@@ -56,6 +72,9 @@
             </ul>
         </section>
     </main>
+
+
+
 
 
 

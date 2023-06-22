@@ -35,10 +35,11 @@
 /*Body styling */
 
 body {
-    background-color: rgb(233, 233, 233);
+    /*background-color: rgb(233, 233, 233);*/
     margin: 40px auto;
     max-width: 800px;
     padding: 0 40px;
+    background: linear-gradient(to bottom, rgb(80, 186, 248), #fafafa);
   }
 
 #name{
@@ -56,12 +57,27 @@ body {
     font-size: 26px;
 }
 
+#buttons button {
+  margin-top: 10px;
+}
+
 
 #name h1 {
     position: relative; /* Position the text */
     top: 20px; /* Distance from the bottom */
     left: 20px; /* Distance from the right */
   }
+
+h2 {
+  border: 3px blue solid;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#getStarted {
+  padding: 20px;  
+}
 
 
 /*Nav bar formatting*/

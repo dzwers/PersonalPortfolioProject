@@ -18,3 +18,16 @@ function fontChange(element) {
         targetElement.style.fontFamily = 'Times New Roman, serif';
     }
 }
+
+function changeFont(fontFamily) {
+    var elements = document.querySelectorAll('body *');
+
+    for (var i = 0; i < elements.length; i++) {
+        elements[i].style.fontFamily = fontFamily;
+    }
+}
+
+function message() {
+    var nameInput = document.getElementById('nameForm').value;
+    document.getElementById('welcomeMessage').innerHTML = 'Welcome, ' + nameInput + '!';
+  }
