@@ -6,7 +6,7 @@
 /*Body styling */
 
 body {
-    background-color: lightgray;
+    background-color: rgb(233, 233, 233);
     margin: 40px auto;
     max-width: 800px;
     padding: 0 40px;
@@ -24,7 +24,7 @@ body {
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-    font-size: 21px;
+    font-size: 26px;
 }
 
 
@@ -54,4 +54,10 @@ nav {
     text-decoration: none;
     color: black;
     font-size: 18px;
+  }
+
+  /*Contact page formatting*/
+
+  #contactTitle{
+    margin-top: 100px;
   }
